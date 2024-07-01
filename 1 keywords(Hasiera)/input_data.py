@@ -32,9 +32,11 @@ keywords = {
     "pre-matricularme": "request_pre_matricula",
     "pre-matricular": "request_pre_matricula",
     "pre-matriculacion": "request_pre_matricula",
-    "inscripcion": "request_pre_matricula",
-    "inscribirme": "request_pre_matricula",
-    "inscribir": "request_pre_matricula",
+   
+   
+    "inscripcion": "request_aurrematrikula edo matrikula",
+    "inscribirme": "request_aurrematrikula edo matrikula",
+    "inscribir": "request_aurrematrikula edo matrikula",
     
 
     "matricula" : "request_matricula",
@@ -45,23 +47,23 @@ keywords = {
    
 
     "contacto" : "request_contacto",
-    "telefono": "request_contacto",
-    "tlfno": "request_contacto",
-    "email": "request_contacto",
-    "direccion": "request_contacto",
-    "localizacion": "request_contacto",
-    "sitio": "request_contacto",
-    "encuentra": "request_contacto",
-    "e-mail": "request_contacto",
-    "tlfn": "request_contacto",
-    "llamar": "request_contacto",
-    "llamada": "request_contacto",
-    "correo": "request_contacto",
-    "electronico": "request_contacto",
-    "gmail": "request_contacto",
-    "hotmail": "request_contacto",
-    "g-mail": "request_contacto",
-    "mail": "request_contacto",
+    "telefono": "request_telefono",
+    "tlfno": "request_telefono",
+    "email": "request_email",
+    "direccion": "request_direccion",
+    "localizacion": "request_direccion",
+    "sitio": "request_direccion",
+    "encuentra": "request_direccion",
+    "e-mail": "request_email",
+    "tlfn": "request_telefono",
+    "llamar": "request_telefono",
+    "llamada": "request_telefono",
+    "correo": "request_email",
+    "electronico": "request_email",
+    "gmail": "request_email",
+    "hotmail": "request_email",
+    "g-mail": "request_email",
+    "mail": "request_email",
       
 
     "oferta": "request_oferta",
@@ -89,8 +91,12 @@ answer = {
     "request_pre_matricula": "El periodo de pre-matrícula es a partir de junio. Si rellenas el siguiente formulario (xxx (URL), cuando se publiquen las fechas oficiales te podremos avisar. Puedes inscribirte aquí: xxx (URL)",
     "request_matricula": "Para realizar la matrícula debes esperar a julio. La matrícula puedes realizarla aquí: xxx (URL)", 
     "request_contacto" : "Los datos de contacto del centro son: Teléfono: XXX XXX XXX. Email: xxxxxxx@gmail.com Dirección/Localización: XXXXXX",
+    "request_email": "El email de contacto del centro es: xxxxxxx@gmail.com" ,
+    "request_telefono": "El Teléfono de contacto del centro es: XXX XXX XXX.",
+    "request_direccion":"La Dirección/Localización del centro es: XXXXXX",
     "request_oferta": "El centro tiene una gran oferta de formaciones para realizar. Puedes informarte sobre ellas aquí: xxx (URL)",
-
+    "request_aurrematrikula edo matrikula":"Por favor, ¿podrias detallar si te refieres a la pre-matricula o a la matricula? Muchas gracias",
+    
     "request_unknown": "¡Vaya! Parece que no te he entendido muy bien. Puedo ayudarte a contactar con el centro, proporcionarte información sobre matricula y oferta"
 }
 
