@@ -85,7 +85,12 @@ keywords = {
     "titulacion": "request_oferta",
     "formacion": "request_oferta",
     "formaciones": "request_oferta",
-    
+
+    "metodologia": "request_metodologia",
+    "metodologias": "request_metodologia",
+    "metodo": "request_metodologia",
+    "reto": "request_metodologia",
+
 
 }
 
@@ -103,7 +108,7 @@ answer = {
     "request_direccion":"La Dirección/Localización del centro es: XXXXXX",
     "request_oferta": "El centro tiene una gran oferta de formaciones para realizar. Puedes informarte sobre ellas aquí: xxx (URL)",
     "request_aurrematrikula edo matrikula":"Por favor, ¿podrias detallar si te refieres a la pre-matricula o a la matricula? Muchas gracias",
-    
+    "request_metodologia": "Zentruan ematen diren zikloetan Ethazi metodologia erabiltzen da. Ikaskuntza aktibo eta kolaboratiboan oinarrituta dago. Gehiago jakin nahi izan ezkero joan ondorengo web orrira: https://ethazi.tknika.eus/eu/ikaskuntza-kolaboratiboa/",
     "request_unknown": "¡Vaya! Parece que no te he entendido muy bien. Puedo ayudarte a contactar con el centro, proporcionarte información sobre matricula y oferta"
 }
 
